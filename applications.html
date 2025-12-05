@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Applications web & mobiles — AVEI Tech</title>
+  <meta name="description" content="Développement d’applications web et mobiles : outils métiers, apps hybrides, dashboards, interfaces modernes et performantes." />
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="wrap header-inner">
+
+      <div class="brand">
+        <a href="index.html" class="brand-link" aria-label="AVEI Tech">
+          <div class="logo-mark"></div>
+          <div class="brand-text">
+            <h1>AVEI Tech</h1>
+            <p class="muted small">SaaS • Sites Web • Applications</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="main-nav" role="navigation">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="contact.html" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" onclick="toggleMenu()">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+    </div>
+
+    <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+  </header>
+
+  <!-- MAIN -->
+  <main class="wrap">
+
+    <!-- INTRO -->
+    <section class="section" aria-labelledby="apps-title">
+      <h2 id="apps-title" style="font-family:Montserrat;">Applications web & mobiles</h2>
+      <p class="muted">Développement d’applications performantes, intuitives et adaptées à vos besoins métier.</p>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <section class="section" style="display:grid;grid-template-columns:1fr 380px;gap:28px;align-items:start">
+
+      <!-- LEFT -->
+      <div>
+        <h3 style="font-family:Montserrat;margin-top:0">Des outils digitaux qui transforment votre activité</h3>
+        <p class="muted">
+          AVEI Tech conçoit des applications modernes, rapides et sécurisées. 
+          Nous vous proposons des solutions clés en main ou sur mesure selon vos besoins opérationnels.
+        </p>
+
+        <ul class="muted small" style="padding-left:18px;margin-top:16px">
+          <li><strong>Applications web professionnelles</strong></li>
+          <li><strong>Apps mobiles hybrides</strong> (Android & iOS)</li>
+          <li><strong>Outils métier</strong> et automatisation</li>
+          <li><strong>Interfaces utilisateur modernes</strong></li>
+        </ul>
+
+        <h4 style="margin-top:22px;font-family:Montserrat;">Types d’applications développées</h4>
+        <div class="cards-grid" style="grid-template-columns:repeat(2,1fr);margin-top:12px">
+
+          <article class="card">
+            <h4>Outils internes</h4>
+            <p class="muted small">Applications internes pour équipes : gestion, reporting, opérations…</p>
+          </article>
+
+          <article class="card">
+            <h4>Dashboards</h4>
+            <p class="muted small">Tableaux de bord interactifs avec données en temps réel.</p>
+          </article>
+
+          <article class="card">
+            <h4>Apps mobiles</h4>
+            <p class="muted small">Applications hybrides multi-plateformes (Android & iOS).</p>
+          </article>
+
+          <article class="card">
+            <h4>Interfaces web avancées</h4>
+            <p class="muted small">SPA, UI modernes, interactions fluides et sécurisées.</p>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- RIGHT (PRICING ASIDE) -->
+      <aside>
+        <div class="card">
+          <h4 style="margin-top:0">Packs Applications — Indicatif</h4>
+          <p class="muted small">Les prix varient selon la complexité et fonctionnalités.</p>
+
+          <div style="margin-top:12px">
+
+            <div style="display:flex;justify-content:space-between">
+              <strong>Mini App</strong><span class="muted small">500 €</span>
+            </div>
+            <div class="muted small">Outil simple (1 fonctionnalité principale)</div>
+            <hr style="border:none;border-top:1px solid #eee;margin:10px 0">
+
+            <div style="display:flex;justify-content:space-between">
+              <strong>Standard</strong><span class="muted small">900 €</span>
+            </div>
+            <div class="muted small">2–4 écrans, base de données, interface fluide</div>
+            <hr style="border:none;border-top:1px solid #eee;margin:10px 0">
+
+            <div style="display:flex;justify-content:space-between">
+              <strong>Business</strong><span class="muted small">1500 €+</span>
+            </div>
+            <div class="muted small">Application complète avec plusieurs modules</div>
+
+          </div>
+
+          <div style="margin-top:16px" class="center">
+            <a href="contact.html" class="btn btn-primary">Demander un devis</a>
+          </div>
+
+        </div>
+      </aside>
+
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section">
+      <h3 style="font-family:Montserrat;">Fonctionnalités proposées</h3>
+
+      <div class="cards-grid" style="margin-top:12px">
+
+        <article class="card">
+          <h4>Interface moderne</h4>
+          <p class="muted small">Design épuré, animations légères, UX intuitive.</p>
+        </article>
+
+        <article class="card">
+          <h4>Base de données</h4>
+          <p class="muted small">Gestion sécurisée et évolutive des données métier.</p>
+        </article>
+
+        <article class="card">
+          <h4>Notifications</h4>
+          <p class="muted small">Emails, alertes, notifications push.</p>
+        </article>
+
+        <article class="card">
+          <h4>Authentification</h4>
+          <p class="muted small">Login, rôles, permissions et sécurité renforcée.</p>
+        </article>
+
+        <article class="card">
+          <h4>API & intégrations</h4>
+          <p class="muted small">Connexion à vos outils internes ou externes.</p>
+        </article>
+
+        <article class="card">
+          <h4>Mode hors-ligne</h4>
+          <p class="muted small">Certaines apps peuvent continuer à fonctionner sans internet.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section class="section">
+      <h3 style="font-family:Montserrat;">Stack technique</h3>
+      <p class="muted small">Nous utilisons des technologies modernes adaptées à vos besoins.</p>
+
+      <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:12px">
+        <span class="card small" style="padding:10px;border-radius:8px">React • Vue • Next.js</span>
+        <span class="card small" style="padding:10px;border-radius:8px">Flutter • React Native</span>
+        <span class="card small" style="padding:10px;border-radius:8px">Node.js • Laravel</span>
+        <span class="card small" style="padding:10px;border-radius:8px">PostgreSQL • Firebase</span>
+        <span class="card small" style="padding:10px;border-radius:8px">API REST • GraphQL</span>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+      <h3 style="font-family:Montserrat;">Questions fréquentes</h3>
+
+      <details class="card" style="padding:12px;margin-top:12px">
+        <summary><strong>Combien de temps pour développer une application ?</strong></summary>
+        <p class="muted small" style="margin-top:8px">En moyenne 2 à 6 semaines selon la complexité.</p>
+      </details>
+
+      <details class="card" style="padding:12px;margin-top:8px">
+        <summary><strong>Pouvez-vous gérer la publication sur stores ?</strong></summary>
+        <p class="muted small" style="margin-top:8px">Oui, nous pouvons gérer Google Play & App Store.</p>
+      </details>
+
+      <details class="card" style="padding:12px;margin-top:8px">
+        <summary><strong>Les apps incluent-elles une documentation ?</strong></summary>
+        <p class="muted small" style="margin-top:8px">Oui, nous livrons documentations + tutoriels.</p>
+      </details>
+
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="cta-card">
+        <div>
+          <h3>Vous souhaitez développer une application ?</h3>
+          <p class="muted small">Parlons de votre projet et recevez une estimation gratuite.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Commencer</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+
+      <div class="footer-brand">
+        <div class="logo-mark small"></div>
+        <div>
+          <strong>AVEI Tech</strong>
+          <div class="muted small">Solutions digitales innovantes</div>
+        </div>
+      </div>
+
+      <div class="footer-links muted small">
+        <a href="services.html">Services</a> • 
+        <a href="portfolio.html">Portfolio</a> • 
+        <a href="about.html">À propos</a> • 
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-meta muted small">
+        © <span id="year"></span> AVEI Tech — Tous droits réservés
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

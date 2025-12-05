@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Services — AVEI Tech</title>
+  <meta name="description" content="Découvrez les services AVEI Tech : développement SaaS, création de sites web, applications sur mesure et automatisation digitale." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="brand">
+        <a href="index.html" class="brand-link">
+          <div class="logo-mark"></div>
+          <div class="brand-text">
+            <h1>AVEI Tech</h1>
+            <p class="small muted">SaaS • Sites Web • Applications</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a class="nav-cta" href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" onclick="toggleMenu()">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="wrap">
+
+    <!-- INTRO -->
+    <section class="section">
+      <h2 style="font-family:Montserrat;">Nos services</h2>
+      <p class="muted">Des solutions digitales adaptées à vos objectifs business.</p>
+    </section>
+
+    <!-- GRID -->
+    <section class="section">
+      <div class="cards-grid">
+
+        <!-- SaaS -->
+        <article class="card">
+          <h3>Développement SaaS</h3>
+          <p class="muted small">Plateformes complètes : abonnements, tableaux de bord, API, gestion utilisateurs.</p>
+          <ul class="muted small" style="margin:10px 0 14px;padding-left:18px">
+            <li>Architecture scalable</li>
+            <li>Paiement & abonnements</li>
+            <li>Dashboards & analytics</li>
+            <li>API & intégrations</li>
+          </ul>
+          <a href="saas.html" class="card-link">→ Voir le service SaaS</a>
+        </article>
+
+        <!-- Sites web -->
+        <article class="card">
+          <h3>Création de sites web</h3>
+          <p class="muted small">Sites vitrines, corporate, e-commerce, SEO et performance.</p>
+          <ul class="muted small" style="margin:10px 0 14px;padding-left:18px">
+            <li>Design moderne</li>
+            <li>SEO naturel</li>
+            <li>Responsive mobile</li>
+            <li>Optimisation vitesse</li>
+          </ul>
+          <a href="sites-web.html" class="card-link">→ Voir les sites web</a>
+        </article>
+
+        <!-- Applications -->
+        <article class="card">
+          <h3>Applications web & mobiles</h3>
+          <p class="muted small">Outils métiers, apps internes, interfaces modernes & rapides.</p>
+          <ul class="muted small" style="margin:10px 0 14px;padding-left:18px">
+            <li>Apps web professionnelles</li>
+            <li>Applications mobiles hybrides</li>
+            <li>Dashboards internes</li>
+            <li>Interfaces sur mesure</li>
+          </ul>
+          <a href="applications.html" class="card-link">→ Voir les applications</a>
+        </article>
+
+        <!-- Automatisation -->
+        <article class="card">
+          <h3>Automatisation & IA</h3>
+          <p class="muted small">Automatisation des tâches, IA, intégration de logiciels, optimisation opérationnelle.</p>
+          <ul class="muted small" style="margin:10px 0 14px;padding-left:18px">
+            <li>Chatbots intelligents</li>
+            <li>Automatisation workflows</li>
+            <li>Connexion d'outils</li>
+            <li>Scripts & IA appliquée</li>
+          </ul>
+          <a href="automatisation.html" class="card-link">→ Voir l’automatisation</a>
+        </article>
+
+        <!-- Maintenance -->
+        <article class="card">
+          <h3>Maintenance & Hébergement</h3>
+          <p class="muted small">Suivi continu, mises à jour, sécurité, sauvegardes et performances.</p>
+          <ul class="muted small" style="margin:10px 0 14px;padding-left:18px">
+            <li>Monitoring & sécurité</li>
+            <li>Mises à jour régulières</li>
+            <li>Sauvegardes automatisées</li>
+            <li>Support selon SLA</li>
+          </ul>
+        </article>
+
+        <!-- Audit -->
+        <article class="card">
+          <h3>Audit & Conseil</h3>
+          <p class="muted small">Audit technique, UX, sécurité, performance & stratégie digitale.</p>
+          <ul class="muted small" style="margin:10px 0 14px;padding-left:18px">
+            <li>Analyse technique</li>
+            <li>Audit UX/UI</li>
+            <li>Optimisation du site</li>
+            <li>Roadmap produit</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="cta-card">
+        <div>
+          <h3>Un projet en tête ?</h3>
+          <p class="muted small">Demandez un devis ou un audit initial gratuit — réponse sous 24h.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Contactez-nous</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <div class="logo-mark small"></div>
+        <div>
+          <strong>AVEI Tech</strong>
+          <div class="muted small">Solutions digitales innovantes</div>
+        </div>
+      </div>
+
+      <div class="footer-links muted small">
+        <a href="services.html">Services</a> • 
+        <a href="portfolio.html">Portfolio</a> • 
+        <a href="about.html">À propos</a> • 
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-meta muted small">
+        © <span id="year"></span> AVEI Tech — Tous droits réservés
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

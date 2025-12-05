@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Automatisation & IA — AVEI Tech</title>
+  <meta name="description" content="Automatisation intelligente, IA, intégrations, scripts métiers et optimisation des processus — AVEI Tech transforme votre productivité.">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+
+      <div class="brand">
+        <a href="index.html" class="brand-link">
+          <div class="logo-mark"></div>
+          <div class="brand-text">
+            <h1>AVEI Tech</h1>
+            <p class="muted small">SaaS • Sites Web • Applications</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="contact.html" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" onclick="toggleMenu()">
+        <svg width="22" height="22" stroke="currentColor" stroke-width="2" fill="none">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+    </div>
+
+    <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+  </header>
+
+  <!-- MAIN -->
+  <main class="wrap">
+
+    <!-- INTRO -->
+    <section class="section" aria-labelledby="auto-title">
+      <h2 id="auto-title" style="font-family:Montserrat;">Automatisation & Intelligence Artificielle</h2>
+      <p class="muted">Gagnez du temps, réduisez les tâches manuelles et améliorez votre efficacité grâce à nos solutions intelligentes.</p>
+    </section>
+
+    <!-- DESCRIPTION -->
+    <section class="section" style="display:grid;grid-template-columns:1fr 380px;gap:28px;align-items:start">
+
+      <!-- LEFT -->
+      <div>
+        <h3 style="font-family:Montserrat;margin-top:0">Automatisez votre entreprise</h3>
+        <p class="muted">
+          Nous créons des automatisations sur mesure pour optimiser vos tâches répétitives, connecter vos outils et améliorer la productivité de vos équipes.
+        </p>
+
+        <ul class="muted small" style="padding-left:18px;margin-top:16px">
+          <li><strong>Automatisation des processus</strong> (workflows)</li>
+          <li><strong>Chatbots intelligents</strong> pour support client</li>
+          <li><strong>Scripts métiers</strong> (traitement de données, génération de rapports…)</li>
+          <li><strong>Intégrations entre outils</strong> (API)</li>
+          <li><strong>IA appliquée</strong> : classification, extraction, recommandations</li>
+        </ul>
+
+        <h4 style="margin-top:22px;font-family:Montserrat;">Domaines d'automatisation courants</h4>
+        <div class="cards-grid" style="grid-template-columns:repeat(2,1fr);margin-top:12px">
+
+          <article class="card">
+            <h4>Marketing</h4>
+            <p class="muted small">Emails automatisés, gestion de leads, segmentation.</p>
+          </article>
+
+          <article class="card">
+            <h4>Finances</h4>
+            <p class="muted small">Facturation, relances, rapports automatiques.</p>
+          </article>
+
+          <article class="card">
+            <h4>Opérations</h4>
+            <p class="muted small">Gestion des tickets, distribution des tâches.</p>
+          </article>
+
+          <article class="card">
+            <h4>Ressources humaines</h4>
+            <p class="muted small">Onboarding, documents automatiques, suivi.</p>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- RIGHT ASIDE -->
+      <aside>
+        <div class="card">
+          <h4 style="margin-top:0">Packs Automatisation — Indicatif</h4>
+          <p class="muted small">Estimation moyenne selon les workflows.</p>
+
+          <div style="margin-top:12px">
+
+            <div style="display:flex;justify-content:space-between">
+              <strong>Starter</strong><span class="muted small">200 €</span>
+            </div>
+            <div class="muted small">1 tâche automatisée (simple)</div>
+            <hr style="border:none;border-top:1px solid #eee;margin:10px 0">
+
+            <div style="display:flex;justify-content:space-between">
+              <strong>Standard</strong><span class="muted small">500 €</span>
+            </div>
+            <div class="muted small">Workflow complet (3–5 étapes)</div>
+            <hr style="border:none;border-top:1px solid #eee;margin:10px 0">
+
+            <div style="display:flex;justify-content:space-between">
+              <strong>Business</strong><span class="muted small">900 €+</span>
+            </div>
+            <div class="muted small">Automatisation avancée + IA</div>
+
+          </div>
+
+          <div class="center" style="margin-top:16px">
+            <a href="contact.html" class="btn btn-primary">Demander un devis</a>
+          </div>
+
+        </div>
+      </aside>
+
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section">
+      <h3 style="font-family:Montserrat;">Fonctionnalités proposées</h3>
+
+      <div class="cards-grid" style="margin-top:12px">
+
+        <article class="card">
+          <h4>Workflows automatisés</h4>
+          <p class="muted small">Chaînes d’actions intelligentes.</p>
+        </article>
+
+        <article class="card">
+          <h4>Chatbots IA</h4>
+          <p class="muted small">Réponses automatiques, support client, FAQ.</p>
+        </article>
+
+        <article class="card">
+          <h4>Extraction & traitement</h4>
+          <p class="muted small">Parsing de données, génération de rapports.</p>
+        </article>
+
+        <article class="card">
+          <h4>Intégrations API</h4>
+          <p class="muted small">Connexion de tous vos outils (CRM, ERP, SaaS…)</p>
+        </article>
+
+        <article class="card">
+          <h4>Scripts métiers</h4>
+          <p class="muted small">Automatisation ultra personnalisée.</p>
+        </article>
+
+        <article class="card">
+          <h4>IA appliquée</h4>
+          <p class="muted small">Classification, prédictions, résumés automatiques.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section class="section">
+      <h3 style="font-family:Montserrat;">Technologies utilisées</h3>
+      <p class="muted small">Intégrations, scripts, IA, automation & connecteurs.</p>
+
+      <div style="margin-top:12px;display:flex;flex-wrap:wrap;gap:10px">
+        <span class="card small" style="padding:10px;border-radius:8px">Python • Node.js</span>
+        <span class="card small" style="padding:10px;border-radius:8px">Zapier • Make (Integromat)</span>
+        <span class="card small" style="padding:10px;border-radius:8px">APIs REST</span>
+        <span class="card small" style="padding:10px;border-radius:8px">OpenAI • IA</span>
+        <span class="card small" style="padding:10px;border-radius:8px">Webhook Automation</span>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+      <h3 style="font-family:Montserrat;">Questions fréquentes</h3>
+
+      <details class="card" style="padding:12px;margin-top:12px">
+        <summary><strong>Mes outils actuels peuvent-ils être connectés ?</strong></summary>
+        <p class="muted small" style="margin-top:8px">Oui, si une API existe, nous pouvons créer un connecteur.</p>
+      </details>
+
+      <details class="card" style="padding:12px;margin-top:8px">
+        <summary><strong>Quel est le délai moyen ?</strong></summary>
+        <p class="muted small" style="margin-top:8px">Entre 1 et 10 jours selon la complexité.</p>
+      </details>
+
+      <details class="card" style="padding:12px;margin-top:8px">
+        <summary><strong>Proposez-vous un audit gratuit ?</strong></summary>
+        <p class="muted small" style="margin-top:8px">Oui, première analyse gratuite.</p>
+      </details>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="cta-card">
+        <div>
+          <h3>Automatisons votre business !</h3>
+          <p class="muted small">Réservez votre audit gratuit et découvrez les tâches à automatiser.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Commencer</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+
+      <div class="footer-brand">
+        <div class="logo-mark small"></div>
+        <div>
+          <strong>AVEI Tech</strong>
+          <div class="muted small">Solutions digitales innovantes</div>
+        </div>
+      </div>
+
+      <div class="footer-links muted small">
+        <a href="services.html">Services</a> • 
+        <a href="portfolio.html">Portfolio</a> • 
+        <a href="about.html">À propos</a> • 
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-meta muted small">
+        © <span id="year"></span> AVEI Tech — Tous droits réservés
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

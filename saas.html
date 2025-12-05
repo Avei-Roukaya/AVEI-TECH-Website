@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Développement SaaS — AVEI Tech</title>
+  <meta name="description" content="AVEI Tech conçoit des plateformes SaaS sécurisées, évolutives et optimisées : abonnements, tableaux de bord, API et intégrations." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="wrap header-inner">
+      <div class="brand">
+        <a href="index.html" class="brand-link" aria-label="AVEI Tech">
+          <div class="logo-mark" aria-hidden="true"></div>
+          <div class="brand-text">
+            <h1>AVEI Tech</h1>
+            <p class="muted small">SaaS • Sites Web • Applications</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="main-nav" role="navigation" aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="contact.html" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" aria-expanded="false" aria-controls="mobileMenu" onclick="toggleMenu()">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="wrap" id="main">
+
+    <!-- HERO -->
+    <section class="section" aria-labelledby="saas-title">
+      <h2 id="saas-title" style="font-family:Montserrat;">Développement de plateformes SaaS sur mesure</h2>
+      <p class="muted">Nous concevons des solutions SaaS robustes, sécurisées et évolutives pour transformer vos services en produits récurrents.</p>
+    </section>
+
+    <!-- VALUE PROPS -->
+    <section class="section" style="display:grid;grid-template-columns:1fr 380px;gap:28px;align-items:start">
+      <div>
+        <h3 style="font-family:Montserrat;margin-top:0">Ce que nous construisons pour vous</h3>
+        <p class="muted">De la conception produit à la mise en production, AVEI Tech prend en charge toutes les étapes : architecture, interface utilisateur, sécurité, paiement et intégrations.</p>
+
+        <ul style="margin-top:16px;padding-left:18px" class="muted small">
+          <li><strong>Modèle abonnement</strong> (stripe, paiements récurrents)</li>
+          <li><strong>Gestion multi-utilisateurs</strong> et rôles</li>
+          <li><strong>Tableaux de bord</strong> et analytics</li>
+          <li><strong>API publique & webhooks</strong> pour intégration</li>
+          <li><strong>Hébergement scalable</strong> (cloud, conteneurs)</li>
+          <li><strong>Sécurité</strong> : authentification, sauvegardes, chiffrement</li>
+        </ul>
+
+        <h4 style="margin-top:18px">Pourquoi choisir AVEI Tech pour votre SaaS ?</h4>
+        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px">
+          <div class="card">
+            <h4 style="margin:0 0 6px">Architecture évolutive</h4>
+            <p class="muted small">Design pensé pour la montée en charge et l'ajout rapide de fonctionnalités.</p>
+          </div>
+          <div class="card">
+            <h4 style="margin:0 0 6px">Sécurité & conformité</h4>
+            <p class="muted small">Bonnes pratiques, gestion des accès et protection des données.</p>
+          </div>
+          <div class="card">
+            <h4 style="margin:0 0 6px">Livraison rapide</h4>
+            <p class="muted small">Sprints agiles, MVP rapide et itérations contrôlées.</p>
+          </div>
+          <div class="card">
+            <h4 style="margin:0 0 6px">Accompagnement produit</h4>
+            <p class="muted small">Roadmap, priorisation et aide au go-to-market.</p>
+          </div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h4 style="margin-top:0">Pack SaaS — Indicatif</h4>
+          <p class="muted small">Trois packages pour démarrer (prix indicatifs, sur devis final)</p>
+          <div style="margin-top:12px">
+            <div style="display:flex;justify-content:space-between"><strong>Starter</strong><span class="muted small">3 000 €</span></div>
+            <div class="muted small">MVP : auth, 1 dashboard, 1 intégration</div>
+            <hr style="border:none;border-top:1px solid rgba(10,10,10,0.04);margin:10px 0">
+
+            <div style="display:flex;justify-content:space-between"><strong>Pro</strong><span class="muted small">8 000 €</span></div>
+            <div class="muted small">Abonnements, paiements, multi-tenancy, 3 dashboards</div>
+            <hr style="border:none;border-top:1px solid rgba(10,10,10,0.04);margin:10px 0">
+
+            <div style="display:flex;justify-content:space-between"><strong>Entreprise</strong><span class="muted small">Sur devis</span></div>
+            <div class="muted small">Haute disponibilité, SLA, intégrations avancées</div>
+          </div>
+
+          <div style="margin-top:16px" class="center">
+            <a href="contact.html" class="btn btn-primary">Demander un devis</a>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- FEATURES DETAIL -->
+    <section class="section">
+      <h3 style="font-family:Montserrat">Fonctionnalités courantes que nous livrons</h3>
+      <div class="cards-grid" style="margin-top:12px">
+        <article class="card">
+          <h4>Auth & sécurité</h4>
+          <p class="muted small">SSO, OAuth, MFA, gestion des permissions et logs d'audit.</p>
+        </article>
+
+        <article class="card">
+          <h4>Billing & abonnements</h4>
+          <p class="muted small">Stripe, facturation récurrente, gestion des essais gratuits et upgrades.</p>
+        </article>
+
+        <article class="card">
+          <h4>Tableaux de bord</h4>
+          <p class="muted small">Visualisations, exports, filtres avancés et rapports automatisés.</p>
+        </article>
+
+        <article class="card">
+          <h4>API & intégrations</h4>
+          <p class="muted small">API REST/GraphQL, webhooks et connecteurs pour vos outils métiers.</p>
+        </article>
+
+        <article class="card">
+          <h4>Monitoring & logging</h4>
+          <p class="muted small">Alertes, métriques et surveillance pour garantir la disponibilité.</p>
+        </article>
+
+        <article class="card">
+          <h4>CI/CD & tests</h4>
+          <p class="muted small">Pipelines d'intégration continue, tests automatisés et déploiement sécurisé.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- TECHNOLOGIES -->
+    <section class="section">
+      <h3 style="font-family:Montserrat">Stack technique (exemples)</h3>
+      <p class="muted">Nous travaillons avec des technologies éprouvées et choisissons la stack adaptée à votre projet.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:12px">
+        <span class="card small" style="padding:10px;border-radius:8px">React / Vue / Next.js</span>
+        <span class="card small" style="padding:10px;border-radius:8px">Django / Node.js / Laravel</span>
+        <span class="card small" style="padding:10px;border-radius:8px">PostgreSQL / MongoDB</span>
+        <span class="card small" style="padding:10px;border-radius:8px">Docker / Kubernetes</span>
+        <span class="card small" style="padding:10px;border-radius:8px">AWS / DigitalOcean / GCP</span>
+        <span class="card small" style="padding:10px;border-radius:8px">Stripe / PayPal</span>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+      <h3 style="font-family:Montserrat">Questions fréquentes</h3>
+
+      <div style="margin-top:12px">
+        <details class="card" style="padding:12px">
+          <summary><strong>Quel est le délai de livraison d'un MVP SaaS ?</strong></summary>
+          <p class="muted small" style="margin-top:8px">En général 6 à 12 semaines selon la complexité. Nous proposons un planning détaillé après audit.</p>
+        </details>
+
+        <details class="card" style="padding:12px;margin-top:8px">
+          <summary><strong>Faites-vous la maintenance après livraison ?</strong></summary>
+          <p class="muted small" style="margin-top:8px">Oui, nous proposons des forfaits de maintenance mensuels selon vos besoins (monitoring, sécurité, évolutions).</p>
+        </details>
+
+        <details class="card" style="padding:12px;margin-top:8px">
+          <summary><strong>Proposez-vous des options de support SLA ?</strong></summary>
+          <p class="muted small" style="margin-top:8px">Oui, pour les offres Entreprise nous définissons un SLA adapté (SLA 24/7 possible).</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- CTA BOTTOM -->
+    <section class="section cta-section">
+      <div class="cta-card">
+        <div>
+          <h3>Prêt.e à lancer votre SaaS ?</h3>
+          <p class="muted small">Réservez un audit produit gratuit de 30 minutes et recevez une proposition concrète.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Demander un audit</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <div class="logo-mark small"></div>
+        <div>
+          <strong>AVEI Tech</strong>
+          <div class="muted small">Solutions digitales innovantes</div>
+        </div>
+      </div>
+
+      <div class="footer-links muted small">
+        <a href="services.html">Services</a> • <a href="portfolio.html">Portfolio</a> • <a href="about.html">À propos</a> • <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-meta muted small">
+        © <span id="year"></span> AVEI Tech — Tous droits réservés
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

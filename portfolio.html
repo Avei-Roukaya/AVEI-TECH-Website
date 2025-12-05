@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — AVEI Tech</title>
+  <meta name="description" content="Découvrez les projets et maquettes d’AVEI Tech : SaaS, sites web, applications et outils digitaux.">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+
+      <div class="brand">
+        <a href="index.html" class="brand-link">
+          <div class="logo-mark"></div>
+          <div class="brand-text">
+            <h1>AVEI Tech</h1>
+            <p class="muted small">SaaS • Sites Web • Applications</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a class="nav-cta" href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" onclick="toggleMenu()">
+        <svg width="22" height="22" stroke="currentColor" stroke-width="2" fill="none">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+    </div>
+
+    <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+  </header>
+
+  <!-- MAIN -->
+  <main class="wrap">
+
+    <!-- INTRO -->
+    <section class="section" aria-labelledby="portfolio-title">
+      <h2 id="portfolio-title" style="font-family:Montserrat;">Portfolio & Réalisations</h2>
+      <p class="muted">Exemples de projets, maquettes et solutions digitales créées par AVEI Tech.</p>
+    </section>
+
+    <!-- GRID -->
+    <section class="section">
+
+      <div class="projects-grid">
+
+        <!-- PROJECT 1 -->
+        <div class="card">
+          <h3>SaaS de gestion d’entreprise</h3>
+          <p class="muted small">Plateforme complète pour gestion clients, factures et utilisateurs.</p>
+          <ul class="muted small" style="padding-left:18px;margin-top:10px">
+            <li>Dashboard multi-modules</li>
+            <li>Abonnements & paiement</li>
+            <li>Gestion des utilisateurs & rôles</li>
+          </ul>
+          <div class="muted small" style="margin-top:8px">React · Django · PostgreSQL</div>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="card">
+          <h3>Dashboard analytique</h3>
+          <p class="muted small">Tableau de bord interactif avec filtres et graphiques.</p>
+          <ul class="muted small" style="padding-left:18px;margin-top:10px">
+            <li>Analytics temps réel</li>
+            <li>Visualisation de données</li>
+            <li>Exports automatiques</li>
+          </ul>
+          <div class="muted small" style="margin-top:8px">Vue.js · Node.js · API</div>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="card">
+          <h3>Site corporate moderne</h3>
+          <p class="muted small">Site professionnel rapide, SEO optimisé et design premium.</p>
+          <ul class="muted small" style="padding-left:18px;margin-top:10px">
+            <li>Multi-pages</li>
+            <li>Performance améliorée</li>
+            <li>Identité visuelle cohérente</li>
+          </ul>
+          <div class="muted small" style="margin-top:8px">Next.js · TailwindCSS</div>
+        </div>
+
+        <!-- PROJECT 4 -->
+        <div class="card">
+          <h3>Application mobile interne</h3>
+          <p class="muted small">App mobile pour reporting terrain et suivi des équipes.</p>
+          <ul class="muted small" style="padding-left:18px;margin-top:10px">
+            <li>Formulaire hors-ligne</li>
+            <li>Cartes & géolocalisation</li>
+            <li>Synchronisation cloud</li>
+          </ul>
+          <div class="muted small" style="margin-top:8px">Flutter · Firebase</div>
+        </div>
+
+        <!-- PROJECT 5 -->
+        <div class="card">
+          <h3>Landing page marketing</h3>
+          <p class="muted small">Page ultra optimisée pour conversion et publicité.</p>
+          <ul class="muted small" style="padding-left:18px;margin-top:10px">
+            <li>Design haut taux de conversion</li>
+            <li>Sections modulaires</li>
+            <li>Optimisation SEO</li>
+          </ul>
+          <div class="muted small" style="margin-top:8px">HTML · CSS · Analytics</div>
+        </div>
+
+        <!-- PROJECT 6 -->
+        <div class="card">
+          <h3>Système d’automatisation</h3>
+          <p class="muted small">Workflows intelligents pour réduire les tâches manuelles.</p>
+          <ul class="muted small" style="padding-left:18px;margin-top:10px">
+            <li>Automatisation emails</li>
+            <li>Traitement de données</li>
+            <li>Intégrations API</li>
+          </ul>
+          <div class="muted small" style="margin-top:8px">Python · Zapier · OpenAI</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="cta-card">
+        <div>
+          <h3>Vous souhaitez réaliser un projet similaire ?</h3>
+          <p class="muted small">Démarrons ensemble — audit gratuit et devis en 24h.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Contacter AVEI Tech</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+
+      <div class="footer-brand">
+        <div class="logo-mark small"></div>
+        <div>
+          <strong>AVEI Tech</strong>
+          <div class="muted small">Solutions digitales innovantes</div>
+        </div>
+      </div>
+
+      <div class="footer-links muted small">
+        <a href="services.html">Services</a> • 
+        <a href="portfolio.html">Portfolio</a> • 
+        <a href="about.html">À propos</a> • 
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-meta muted small">
+        © <span id="year"></span> AVEI Tech — Tous droits réservés
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

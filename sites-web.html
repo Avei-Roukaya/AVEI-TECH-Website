@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Création de sites web — AVEI Tech</title>
+  <meta name="description" content="Création de sites web professionnels : vitrines, corporate, e-commerce, SEO, performance et design moderne avec AVEI Tech." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="brand">
+        <a href="index.html" class="brand-link">
+          <div class="logo-mark"></div>
+          <div class="brand-text">
+            <h1>AVEI Tech</h1>
+            <p class="muted small">SaaS • Sites Web • Applications</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="contact.html" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" onclick="toggleMenu()">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="wrap">
+
+    <!-- INTRO -->
+    <section class="section" aria-labelledby="sites-title">
+      <h2 id="sites-title" style="font-family:Montserrat;">Création de sites web professionnels</h2>
+      <p class="muted">Sites vitrines, corporate, landing pages et e-commerce — modernes, rapides et optimisés.</p>
+    </section>
+
+    <!-- DESCRIPTION + CARD -->
+    <section class="section" style="display:grid;grid-template-columns:1fr 380px;gap:28px;align-items:start">
+      <div>
+        <h3 style="font-family:Montserrat;margin-top:0">Construisez votre présence digitale</h3>
+        <p class="muted">
+          Votre site web est la première impression que vous laissez à vos clients.  
+          AVEI Tech crée des sites élégants, rapides, sécurisés et entièrement adaptés à vos besoins.
+        </p>
+
+        <ul class="muted small" style="padding-left:18px;margin-top:16px">
+          <li><strong>Design moderne & responsive</strong></li>
+          <li><strong>Optimisation SEO naturelle</strong></li>
+          <li><strong>Performance & rapidité</strong></li>
+          <li><strong>Intégrations professionnelles</strong></li>
+        </ul>
+
+        <h4 style="margin-top:22px;font-family:Montserrat;">Types de sites que nous créons</h4>
+        <div class="cards-grid" style="grid-template-columns:repeat(2,1fr);margin-top:12px">
+          <article class="card">
+            <h4>Site vitrine</h4>
+            <p class="muted small">Idéal pour présenter vos services et convertir vos visiteurs.</p>
+          </article>
+          <article class="card">
+            <h4>Site corporate</h4>
+            <p class="muted small">Pour les entreprises ayant besoin d’une image professionnelle solide.</p>
+          </article>
+          <article class="card">
+            <h4>E-commerce</h4>
+            <p class="muted small">Boutique en ligne : gestion produits, paiements, commandes.</p>
+          </article>
+          <article class="card">
+            <h4>Landing page</h4>
+            <p class="muted small">Page marketing dédiée, optimisée pour la conversion.</p>
+          </article>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h4 style="margin-top:0">Packs — Indicatif</h4>
+          <p class="muted small">Estimation moyenne — le tarif dépend du besoin final.</p>
+
+          <div style="margin-top:12px">
+            <div style="display:flex;justify-content:space-between"><strong>Starter</strong><span class="muted small">300 €</span></div>
+            <div class="muted small">Site vitrine simple (1–3 pages)</div>
+            <hr style="border:none;border-top:1px solid #eee;margin:10px 0">
+
+            <div style="display:flex;justify-content:space-between"><strong>Business</strong><span class="muted small">600 €</span></div>
+            <div class="muted small">Site corporate complet (4–8 pages)</div>
+            <hr style="border:none;border-top:1px solid #eee;margin:10px 0">
+
+            <div style="display:flex;justify-content:space-between"><strong>E-commerce</strong><span class="muted small">900 €+</span></div>
+            <div class="muted small">Boutique en ligne, produits, paiement</div>
+          </div>
+
+          <div style="margin-top:16px" class="center">
+            <a href="contact.html" class="btn btn-primary">Demander un devis</a>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- FONCTIONNALITÉS -->
+    <section class="section">
+      <h3 style="font-family:Montserrat;">Fonctionnalités incluses</h3>
+      <div class="cards-grid" style="margin-top:12px">
+
+        <article class="card">
+          <h4>Responsive mobile</h4>
+          <p class="muted small">Compatible smartphones, tablettes et ordinateurs.</p>
+        </article>
+
+        <article class="card">
+          <h4>SEO optimisé</h4>
+          <p class="muted small">Balises, structure, vitesse, optimisation contenu.</p>
+        </article>
+
+        <article class="card">
+          <h4>Design moderne</h4>
+          <p class="muted small">UI claire, animations légères, sections bien structurées.</p>
+        </article>
+
+        <article class="card">
+          <h4>Formulaire de contact</h4>
+          <p class="muted small">Simple ou avancé, avec validations.</p>
+        </article>
+
+        <article class="card">
+          <h4>Pages illimitées</h4>
+          <p class="muted small">Nous construisons autant de pages que nécessaire.</p>
+        </article>
+
+        <article class="card">
+          <h4>Intégrations</h4>
+          <p class="muted small">WhatsApp, Stripe, outils métier, analytics…</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section class="section">
+      <h3 style="font-family:Montserrat;">Stack technique</h3>
+      <p class="muted small">Technologies utilisées selon la nature du projet.</p>
+
+      <div style="margin-top:12px;display:flex;flex-wrap:wrap;gap:10px">
+        <span class="card small" style="padding:10px;border-radius:8px">HTML • CSS • JS</span>
+        <span class="card small" style="padding:10px;border-radius:8px">WordPress • WooCommerce</span>
+        <span class="card small" style="padding:10px;border-radius:8px">Next.js • React</span>
+        <span class="card small" style="padding:10px;border-radius:8px">Node.js • Laravel</span>
+        <span class="card small" style="padding:10px;border-radius:8px">SEO Tools</span>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+      <h3 style="font-family:Montserrat;">Questions fréquentes</h3>
+
+      <details class="card" style="padding:12px;margin-top:12px">
+        <summary><strong>Délai moyen pour un site vitrine ?</strong></summary>
+        <p class="muted small" style="margin-top:8px">Entre 5 et 10 jours selon le contenu.</p>
+      </details>
+
+      <details class="card" style="padding:12px;margin-top:8px">
+        <summary><strong>Pouvez-vous gérer l’hébergement et domaine ?</strong></summary>
+        <p class="muted small" style="margin-top:8px">Oui, nous nous en chargeons si vous le souhaitez.</p>
+      </details>
+
+      <details class="card" style="padding:12px;margin-top:8px">
+        <summary><strong>Est-ce que je pourrai modifier mon site ?</strong></summary>
+        <p class="muted small" style="margin-top:8px">Oui, nous fournissons une interface simple et des tutoriels.</p>
+      </details>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="cta-card">
+        <div>
+          <h3>Besoin d’un site web professionnel ?</h3>
+          <p class="muted small">Contactez-nous pour un audit gratuit et un devis précis.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Je veux un site</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <div class="logo-mark small"></div>
+        <div>
+          <strong>AVEI Tech</strong>
+          <div class="muted small">Solutions digitales innovantes</div>
+        </div>
+      </div>
+
+      <div class="footer-links muted small">
+        <a href="services.html">Services</a> • 
+        <a href="portfolio.html">Portfolio</a> • 
+        <a href="about.html">À propos</a> • 
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-meta muted small">
+        © <span id="year"></span> AVEI Tech — Tous droits réservés
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

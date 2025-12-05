@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AVEI Tech — Solutions digitales | SaaS, Sites & Apps</title>
+  <meta name="description" content="AVEI Tech — Création de SaaS, sites web et applications. Solutions digitales sur mesure, sécurisées et évolutives." />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='64' height='64'><rect rx='8' width='100%' height='100%' fill='%231a1a1a'/><circle cx='32' cy='26' r='12' fill='%237B3FF7'/></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="wrap header-inner">
+      <div class="brand">
+        <a href="index.html" class="brand-link" aria-label="AVEI Tech">
+          <div class="logo-mark" aria-hidden="true">
+            <!-- small gradient mark -->
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <defs>
+                <linearGradient id="g" x1="0" x2="1">
+                  <stop offset="0" stop-color="#7B3FF7"/>
+                  <stop offset="0.55" stop-color="#2F79FF"/>
+                  <stop offset="1" stop-color="#18D4C2"/>
+                </linearGradient>
+              </defs>
+              <path d="M46 28c6 0 10 5 10 11s-4 11-10 11H20c-6 0-11-5-11-11 0-6 5-11 11-11 0-6 5-11 11-11 5 0 9 3 11 7 2-1 6-1 6-1z" fill="url(#g)"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <h1>AVEI Tech</h1>
+            <p class="muted small">SaaS • Sites Web • Applications</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="main-nav" role="navigation" aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="contact.html" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" aria-expanded="false" aria-controls="mobileMenu" onclick="toggleMenu()">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="main">
+    <section class="hero wrap" id="home">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <h2>Accélérez votre croissance grâce à des solutions digitales intelligentes.</h2>
+          <p class="lead">AVEI Tech conçoit des <strong>SaaS performants</strong>, des <strong>sites web professionnels</strong> et des <strong>applications sur mesure</strong> pour rendre votre entreprise plus efficace et visible.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="contact.html">Demander un devis</a>
+            <a class="btn btn-ghost" href="services.html">Voir nos services</a>
+          </div>
+
+          <ul class="hero-features">
+            <li><strong>Code propre</strong> & architecture scalable</li>
+            <li><strong>Livraison rapide</strong> et accompagnement</li>
+            <li><strong>Maintenance</strong> et support disponibles</li>
+          </ul>
+        </div>
+
+        <aside class="hero-aside">
+          <div class="card">
+            <h3>Nos axes</h3>
+            <p class="muted small">SaaS • Sites Web • Apps • Automatisation</p>
+            <div class="mini-list">
+              <div><strong>SaaS</strong><span class="muted small"> — Plateformes abonnements</span></div>
+              <div><strong>Sites</strong><span class="muted small"> — Vitrine & e-commerce</span></div>
+              <div><strong>Apps</strong><span class="muted small"> — Web & mobile</span></div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SERVICES PREVIEW -->
+    <section class="wrap section" id="services-preview" aria-labelledby="services-title">
+      <h2 id="services-title">Nos services</h2>
+      <p class="muted">Solutions complètes : du concept au support produit.</p>
+
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Développement SaaS</h3>
+          <p class="muted">Plateformes complète avec gestion utilisateurs, paiements et API.</p>
+          <a class="card-link" href="saas.html">En savoir plus →</a>
+        </article>
+
+        <article class="card">
+          <h3>Sites web</h3>
+          <p class="muted">Site vitrine, corporate, landing pages et e-commerce optimisés.</p>
+          <a class="card-link" href="sites-web.html">En savoir plus →</a>
+        </article>
+
+        <article class="card">
+          <h3>Applications</h3>
+          <p class="muted">Applications internes, outils métier et apps mobiles hybrides.</p>
+          <a class="card-link" href="applications.html">En savoir plus →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="wrap section" id="process" aria-label="Processus">
+      <h2>Notre processus</h2>
+      <div class="process-grid">
+        <div class="step"><strong>1</strong><span>Analyse</span></div>
+        <div class="step"><strong>2</strong><span>Prototype</span></div>
+        <div class="step"><strong>3</strong><span>Développement</span></div>
+        <div class="step"><strong>4</strong><span>Livraison</span></div>
+        <div class="step"><strong>5</strong><span>Suivi</span></div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO PREVIEW -->
+    <section class="wrap section" id="portfolio-preview">
+      <h2>Portfolio (exemples)</h2>
+      <p class="muted">Maquettes et projets types qui illustrent notre savoir-faire.</p>
+
+      <div class="projects-grid">
+        <div class="project">
+          <h4>Plateforme SaaS de gestion</h4>
+          <p class="muted small">React • Django • PostgreSQL</p>
+        </div>
+        <div class="project">
+          <h4>Dashboard analytique</h4>
+          <p class="muted small">Vue • Node</p>
+        </div>
+        <div class="project">
+          <h4>Site corporate</h4>
+          <p class="muted small">Next.js • Tailwind</p>
+        </div>
+      </div>
+
+      <div class="center" style="margin-top:18px">
+        <a href="portfolio.html" class="btn btn-outline">Voir le portfolio complet</a>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="wrap section cta-section">
+      <div class="cta-card">
+        <h3>Prête à lancer votre projet digital ?</h3>
+        <p class="muted">Demandez un audit initial gratuit (30 min) et recevez un plan d'action.</p>
+        <a class="btn btn-primary" href="contact.html">Demander un audit</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <div class="logo-mark small"></div>
+        <div>
+          <strong>AVEI Tech</strong>
+          <div class="muted small">Solutions digitales innovantes</div>
+        </div>
+      </div>
+
+      <div class="footer-links muted small">
+        <a href="services.html">Services</a> • <a href="portfolio.html">Portfolio</a> • <a href="about.html">À propos</a> • <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-meta muted small">
+        © <span id="year"></span> AVEI Tech — Mentions légales • Confidentialité
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
